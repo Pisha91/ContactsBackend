@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contacts.WebApi", "src\Contacts.WebApi\Contacts.WebApi.csproj", "{A148A964-1CD1-4A12-A5C6-0FCEC2497F54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contacts.Application", "src\Contacts.Application\Contacts.Application.csproj", "{352ADC2B-5B40-4C18-B0EB-127F3EC8534E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contacts.Persistence", "src\Contacts.Persistence\Contacts.Persistence.csproj", "{820780AF-5FA0-400F-B324-B247FD6758BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contacts.Domain", "src\Contacts.Domain\Contacts.Domain.csproj", "{DED761FA-F48B-424F-A20B-155FA108A693}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A994BC33-C471-40EE-AAA6-9B47D493B3CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contacts.WebApi.IntegrationTests", "tests\Contacts.WebApi.IntegrationTests\Contacts.WebApi.IntegrationTests.csproj", "{E559C54F-E1A1-49AD-98A0-5762884E846F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contacts.Fakers", "tests\Contacts.Fakers\Contacts.Fakers.csproj", "{5D4A80C1-A169-40F2-8E6E-97584DDA5067}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contacts.WebApi.UnitTests", "tests\Contacts.WebApi.UnitTests\Contacts.WebApi.UnitTests.csproj", "{19856374-2C16-43B4-A917-1FAC498AFCBF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A148A964-1CD1-4A12-A5C6-0FCEC2497F54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A148A964-1CD1-4A12-A5C6-0FCEC2497F54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A148A964-1CD1-4A12-A5C6-0FCEC2497F54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A148A964-1CD1-4A12-A5C6-0FCEC2497F54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{352ADC2B-5B40-4C18-B0EB-127F3EC8534E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{352ADC2B-5B40-4C18-B0EB-127F3EC8534E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{352ADC2B-5B40-4C18-B0EB-127F3EC8534E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{352ADC2B-5B40-4C18-B0EB-127F3EC8534E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{820780AF-5FA0-400F-B324-B247FD6758BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{820780AF-5FA0-400F-B324-B247FD6758BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{820780AF-5FA0-400F-B324-B247FD6758BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{820780AF-5FA0-400F-B324-B247FD6758BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DED761FA-F48B-424F-A20B-155FA108A693}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DED761FA-F48B-424F-A20B-155FA108A693}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DED761FA-F48B-424F-A20B-155FA108A693}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DED761FA-F48B-424F-A20B-155FA108A693}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E559C54F-E1A1-49AD-98A0-5762884E846F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E559C54F-E1A1-49AD-98A0-5762884E846F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E559C54F-E1A1-49AD-98A0-5762884E846F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E559C54F-E1A1-49AD-98A0-5762884E846F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D4A80C1-A169-40F2-8E6E-97584DDA5067}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D4A80C1-A169-40F2-8E6E-97584DDA5067}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D4A80C1-A169-40F2-8E6E-97584DDA5067}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D4A80C1-A169-40F2-8E6E-97584DDA5067}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19856374-2C16-43B4-A917-1FAC498AFCBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19856374-2C16-43B4-A917-1FAC498AFCBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19856374-2C16-43B4-A917-1FAC498AFCBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19856374-2C16-43B4-A917-1FAC498AFCBF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E559C54F-E1A1-49AD-98A0-5762884E846F} = {A994BC33-C471-40EE-AAA6-9B47D493B3CE}
+		{5D4A80C1-A169-40F2-8E6E-97584DDA5067} = {A994BC33-C471-40EE-AAA6-9B47D493B3CE}
+		{19856374-2C16-43B4-A917-1FAC498AFCBF} = {A994BC33-C471-40EE-AAA6-9B47D493B3CE}
+	EndGlobalSection
+EndGlobal

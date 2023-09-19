@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\src\Contacts.Domain\Contacts.Domain.csproj" />
+      <ProjectReference Include="..\..\src\Contacts.WebApi\Contacts.WebApi.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Bogus" Version="34.0.2" />
+    </ItemGroup>
+
+</Project>
